@@ -1,9 +1,10 @@
 import React from 'react';
-import FormBuilder from './FormBuilder'
+import {View, Text} from 'react-native'
+import RootStackNavigation from './Router/RootStackNavigation';
 
 const App = () => {
   return (
-    <FormBuilder />
+    <RootStackNavigation />
   );
 }
 
